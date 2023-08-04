@@ -6,7 +6,14 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         // Password Request
-        System.out.println("Insert password")
+        System.out.println("Insert password");
         String userPswrd = scanner.nextLine();
+
+        // If Else statement
+        if(userPswrd.equals("PincoPallino1")) {
+            System.out.println("Correct password");
+        }else {
+            System.out.println("Wrong password");
+        }
     }
 }
