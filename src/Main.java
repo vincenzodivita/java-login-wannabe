@@ -5,6 +5,8 @@ public class Main {
         // Import Scanner
         Scanner scanner = new Scanner(System.in);
 
-        // Let's code!
+        // Password Request
+        System.out.println("Insert password")
+        String userPswrd = scanner.nextLine();
     }
 }
