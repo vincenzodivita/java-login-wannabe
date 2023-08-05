@@ -7,9 +7,13 @@ public class Main {
 
         // Password Request
         System.out.println("Insert password");
-        boolean userPswrd = scanner.nextLine().equals("PincoPallino1");
-
-        // Ternary Operator 
-        System.out.println((userPswrd) ? "Correct password" : "Wrong password");
+        String userPswrd = scanner.nextLine();
+        
+        // While cycle
+        while (!userPswrd.equals("PincoPallino1")) {
+            System.out.println("Wrong password\nInsert password");
+            userPswrd = scanner.nextLine();
+        };
+        System.out.println("Correct password");
     }
 }
