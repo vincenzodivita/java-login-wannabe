@@ -7,7 +7,7 @@ public class Main {
 
         // Password Request
         System.out.println("Insert password");
-        String userPswrd = scanner.nextLine();
+        boolean userPswrd = scanner.nextLine().equals("PincoPallino1");
 
         // If Else statement
         // if(userPswrd.equals("PincoPallino1")) {
@@ -17,7 +17,6 @@ public class Main {
         // }
 
         // Ternary Operator 
-        System.out.println((userPswrd.equals("PincoPallino1"))
-        ? "Correct password" : "Wrong password");
+        System.out.println((userPswrd) ? "Correct password" : "Wrong password");
     }
 }
