@@ -10,10 +10,14 @@ public class Main {
         String userPswrd = scanner.nextLine();
 
         // If Else statement
-        if(userPswrd.equals("PincoPallino1")) {
-            System.out.println("Correct password");
-        }else {
-            System.out.println("Wrong password");
-        }
+        // if(userPswrd.equals("PincoPallino1")) {
+        //     System.out.println("Correct password");
+        // }else {
+        //     System.out.println("Wrong password");
+        // }
+
+        // Ternary Operator 
+        System.out.println((userPswrd.equals("PincoPallino1"))
+        ? "Correct password" : "Wrong password");
     }
 }
