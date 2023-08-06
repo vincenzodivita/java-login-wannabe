@@ -15,5 +15,7 @@ public class Main {
             userPswrd = scanner.nextLine();
         };
         System.out.println("Correct password");
+
+        scanner.close();
     }
 }
